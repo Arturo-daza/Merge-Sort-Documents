@@ -16,3 +16,28 @@ Esta función se encarga de combinar dos listas ordenadas, `izquierda` y `derech
 
 El código también incluye la generación de una lista de 500 frases aleatorias utilizando palabras relacionadas. Las palabras relacionadas se almacenan en la lista `palabras_relacionadas`, y se seleccionan de manera aleatoria para crear frases de longitud variable (entre 3 y 6 palabras). Estas frases se almacenan en la lista `documentos`.
 
+## Ejecución del Código
+
+El código ordena la lista de frases aleatorias generadas y muestra la lista original y la lista ordenada en la consola.
+
+### Ejecución del Merge Sort
+
+```
+resultado = merge_sort(documentos)
+```
+
+### Impresión de la Lista Original
+
+
+```
+print("Lista original: ") for documento in documentos:     print(documento)
+```
+
+### Impresión de la Lista Ordenada
+
+
+``` 
+print("Lista ordenada: ") for rel in resultado:     print(rel)
+```
+
+Este código es útil para demostrar cómo funciona el algoritmo de ordenamiento Merge Sort en un contexto práctico y cómo se puede aplicar a una lista de frases aleatorias.
